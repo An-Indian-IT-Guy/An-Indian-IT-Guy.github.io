@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : An Indian IT Guy
 description         : >-
-                      I turn coffee :coffee: into (Infrastructure as) code ,
-                      Love riding motorbikes
-                      and .
+                      I turn coffee :coffee: into <br>(Infrastructure as) code ,
+                      Love riding motorbikes :motorcycle:
+                      and play chef :man_cook: occasionally.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : savyvarkey/savyvarkey.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
