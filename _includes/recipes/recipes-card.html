@@ -1,0 +1,21 @@
+<div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="{{ recipe_url }}" class="recipe card text-themed" {%- if external and site.open_new_tab -%} target="_blank" {%- endif -%}>
+    {%- if recipe_img -%}
+    <img id="{{ recipe_id }}-img" class="card-img-top" src="{{ recipe_img }}" alt="{{ recipe_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+      <h5 id="{{ recipe_id }}-name" class="card-title">
+          {%- if recipe_type == "remote" -%}
+          <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
+          {%- endif -%}
+        {{ recipe_name }}
+      </h5>
+      <p id="{{ recipe_id }}-desc" class="card-text">{{ recipe_desc }}</p>
+      <p id="{{ recipe_id }}-tools" class="card-text">
+        {%- for tool in recipe_tools -%}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+        {%- endfor -%}
+      </p>
+    </div>
+  </a>
+</div>
