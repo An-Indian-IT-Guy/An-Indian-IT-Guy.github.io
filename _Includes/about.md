@@ -1,9 +1,3 @@
----
-layout: page
-title: Myself
-permalink: /myself/
-weight: 1
----
 
 # **About Me**
 
