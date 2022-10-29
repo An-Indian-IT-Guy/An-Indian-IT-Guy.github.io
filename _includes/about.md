@@ -1,8 +1,11 @@
 
+## **Hey** :wave:, Super Glad you are here. 
 
-## **Hello** :wave: 
-### I am **Rinu Varghese** aka **{{ site.author.name }}**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I'm **Rinu Varghese**, you can call me **{{ site.author.name }}** if you want.
+
+I am an IT Engineer since a decade. Been a Cloud Engineer for 3 years now. In my role I come up with ideas, design them, test them, implement them and keep them running. I am also good at reverse engineering legacy systems and makes it my mission to make them better. Call me a restoration workshop for systems.
+This site was a product of sheer curiosity on how to host a website. Thaks to Github and <author> it went super easy for me.
+If you are still reading this then you shoul click the button below.
 
 <p class="text-center">
 {% include elements/button.html link="./myself" text="Know me More" %}
@@ -17,3 +20,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
 {% include about/timeline.html %}
 </div> -->
+
+Or else you can read about fun stuff such as <tags> by visiting <Blogs>
