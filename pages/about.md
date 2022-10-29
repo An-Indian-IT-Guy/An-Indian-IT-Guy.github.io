@@ -12,7 +12,7 @@ weight: 1
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="../{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <img src="../{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn">
       </div>
     </div>
     
