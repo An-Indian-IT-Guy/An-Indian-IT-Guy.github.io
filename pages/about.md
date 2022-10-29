@@ -5,6 +5,20 @@ permalink: /myself/
 weight: 1
 ---
 
+<div class="row justify-content-center align-items-center p-4">
+  <div class="col-lg-4 col-md-6 text-center mt-4">
+
+    <!-- Fine Circle Responsive Image -->
+    <div id="container" class="my-2">
+      <div id="dummy"></div>
+      <div id="element">
+        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+      </div>
+    </div>
+    
+  </div>
+</div>
+
 # **About Me**
 
 Hi I am **Rinu Varghese** AKA **{{ site.author.name }}**    :wave:,<br>
