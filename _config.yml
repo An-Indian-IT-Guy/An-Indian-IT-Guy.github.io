@@ -5,7 +5,7 @@ description         : >-
                       Love riding motorbikes :motorcycle:
                       and play chef :man_cook: occasionally.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : savyvarkey/savyvarkey.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : an-indian-it-guy/DemoRepo     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -29,7 +29,7 @@ author:
 # dribbble          : your_username
   email             : email@rinuvarghese.com
 # facebook          : your_username
-  github            : savyvarkey
+  github            : an-indian-it-guy
 # gitlab            : your_username
   instagram         : an.indian_it_guy
 # kaggle            : your_username
