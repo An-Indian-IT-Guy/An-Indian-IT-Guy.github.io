@@ -5,7 +5,7 @@ description         : >-
                       Love riding motorbikes :motorcycle:
                       and play chef :man_cook: occasionally.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : an-indian-it-guy/DemoRepo     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : An-Indian-IT-Guy/savyvarkey.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
