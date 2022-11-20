@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : RV
-  image             : ./assets/landing.png
+  image             : https://cdn.dribbble.com/users/68746/screenshots/1443011/media/201be94e790350ab58835907acd66f1c.gif # ./assets/landing.png
 # behance           : your_username
 # dribbble          : your_username
   email             : email@rinuvarghese.com

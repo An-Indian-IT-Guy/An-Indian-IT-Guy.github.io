@@ -5,14 +5,14 @@ permalink: /myself/
 weight: 1
 ---
 
-<div class="row justify-content-center align-items-center p-4">
+<div class="row justify-content-left align-items-left p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
 
     <!-- Fine Circle Responsive Image -->
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="../{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn">
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEOUhjnixS9lQ/profile-displayphoto-shrink_800_800/0/1587450431047?e=1674086400&v=beta&t=TpeuAG1A4MsVG2Yg_IbjWt16T0Mf8SPVTvUAg0NjjIA" alt="{{ site.title }}" class="circle-image wow animated zoomIn">
       </div>
     </div>
     
