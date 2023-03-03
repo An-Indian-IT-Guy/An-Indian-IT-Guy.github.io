@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
+- name: Hashicorp Vault (Secrets)
+  percentage: 70
+  color: warning
 
-- name: Adobe Illustrator
-  percentage: 90
-  color: success
+- name: Splunk
+  percentage: 70
+  color: warning
+
+- name: Windows IIS
+  percentage: 70
+  color: warning

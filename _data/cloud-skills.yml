@@ -1,0 +1,17 @@
+- name: Azure
+  percentage: 90
+  color: danger
+
+- name: AWS
+  percentage: 70
+  color: warning
+
+- name: Terraform
+  percentage: 80
+  color: info
+
+- name: AzureRM
+  percentage: 70
+  color: secondary
+
+  
