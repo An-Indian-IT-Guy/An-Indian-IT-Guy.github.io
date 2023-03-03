@@ -1,0 +1,15 @@
+- name: Jenkins/Groovy
+  percentage: 85
+  color: info
+  
+- name: GitHub (VCS)
+  percentage: 95
+  color: primary
+
+- name: Powershell DSC
+  percentage: 90
+  color: primary
+
+- name: Ansible
+  percentage: 70
+  color: warning

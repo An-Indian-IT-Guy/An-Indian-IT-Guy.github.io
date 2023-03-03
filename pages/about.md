@@ -21,12 +21,15 @@ weight: 1
 
 # **About Me**
 
-Hi I am **Rinu Varghese** AKA **{{ site.author.name }}**    :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi I am **Rinu Varghese** a.k.a **{{ site.author.name }}** :wave:,<br><br>
+  I am a [Microsoft Certified Azure Solutions Architect](https://www.credly.com/badges/b25632ce-268d-4712-b0dd-cf1743008d70) with more than ten years of experience in the IT industry. I also have knowledge of Infrastructure as Code. Apart from work I enjoy taking long motorcycle rides on my [Hero Xpulse 200 4V](https://www.heromotocorp.com/en-in/motorcycles/performance/xpulse-200-4v.html), a lite Offroader turned tourer. I also enjoy making food to satisfy my own cravings for [homemade dishes](./recipes.html).<br><br>
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Clouds" source=site.data.cloud-skills %}
+{% include about/skills.html title="Orchestration" source=site.data.configuration-management-skills %}
+{% include about/skills.html title="Automation" source=site.data.scripting-skills %}
+{% include about/skills.html title="Others" source=site.data.other-skills %}
+
 </div>
 
 <div class="row">

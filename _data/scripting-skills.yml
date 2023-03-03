@@ -1,0 +1,15 @@
+- name: Powershell
+  percentage: 95
+  color: primary
+
+- name: Python
+  percentage: 80
+  color: success
+
+- name: Shell
+  percentage: 70
+  color: warning
+
+- name: Postman (API)
+  percentage: 80
+  color: success
