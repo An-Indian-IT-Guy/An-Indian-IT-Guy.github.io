@@ -1,0 +1,49 @@
+---
+layout: default
+title: Login
+permalink: /login/
+weight: 6
+---
+
+  <body>
+    <!-- <a class="nav-item nav-link" href="/login" >Sign In</a> -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> -->
+      <!-- <a class="navbar-brand" href="/">Azure AD B2C</a> -->
+    <nav class="navbar navbar-expand-lg navbar-themed">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <!-- <button type="button" id="editProfileButton" class="nav-item nav-link" onclick="editProfile()">Edit Profile</button> -->
+          <a href="#" id="editProfileButton" class="nav-item nav-link d-none" onclick="editProfile()">Edit Profile</a>
+          <!-- <button type="button" id="signIn" class="nav-item nav-link" onclick="signIn()">Sign-in</button> -->
+          <a href="#" id="signIn" class="nav-item nav-link active" onclick="signIn()">Sign In</a>
+          <!-- <button type="button" id="signOut" class="nav-item nav-link" onclick="signOut()">Sign-out</button> -->
+          <a href="#" id="signOut" class="nav-item nav-link active d-none" onclick="signOut()">Sign out</a>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <h5 id="welcome-div" class="card-header text-center"></h5>
+    <br>
+    <!-- Content -->
+    <div class="card">
+      <div class="card-body text-center">
+        <pre id="response" class="card-text"></pre>
+      </div>
+    </div>
+
+    <!-- importing bootstrap.js and supporting js libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>  
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    
+    <!-- importing app scripts (load order is important) -->
+    <script type="text/javascript" src="{{ '/assets/js/login/apiConfig.js'}}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/login/policies.js' }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/login/authConfig.js' }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/login/ui.js' }}"></script>
+
+    <script type="text/javascript" src="{{ '/assets/js/login/authRedirect.js'  }}"></script>  
+    <!-- uncomment the above line and comment the line below if you would like to use the redirect flow -->
+    <!-- <script type="text/javascript" src="{{ '/assets/js/login/authPopup.js'  }}"></script> -->
+    <script type="text/javascript" src="{{ '/assets/js/login/api.js'  }}"></script>
+  </body>

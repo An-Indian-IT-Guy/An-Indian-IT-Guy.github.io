@@ -25,6 +25,21 @@
   <!-- Theme style -->
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
+  <!-- <Login functions> -->
+  <!-- importing app scripts (load order is important) -->
+  <meta charset="UTF-8">
+  <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+  <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js" integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="{{ '/assets/js/login/apiConfig.js'}}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/login/policies.js' }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/login/authConfig.js' }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/login/ui.js' }}"></script>
+  <!-- <script type="text/javascript" src="{{ '/assets/js/login/authRedirect.js'  }}"></script>   -->
+  <!-- uncomment the above line and comment the line below if you would like to use the redirect flow -->
+  <script type="text/javascript" src="{{ '/assets/js/login/authPopup.js'  }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/login/api.js'  }}"></script>
+  
+
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 

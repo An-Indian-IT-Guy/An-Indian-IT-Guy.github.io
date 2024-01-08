@@ -5,9 +5,17 @@
 
 {% include head.html %}
 
-<body class="h-100 d-flex flex-column">
+{%- assign required = false -%}
+{%- for required_path in site.login_required -%}
+  {%- if required_path == page.title -%}
+    {%- assign required = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+<body {% if required == true %}onload="signIn()"{% endif %} class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container mt-5">
+
+  <main class="flex-shrink-0 container mt-5 ">
     {% include navbar.html %}
     {{ content }}
   </main>
