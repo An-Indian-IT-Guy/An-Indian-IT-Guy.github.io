@@ -20,6 +20,9 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
 
+login_required:
+  - Myself
+
 ### Author Info ###
 author:
   name              : RV

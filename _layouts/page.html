@@ -2,6 +2,13 @@
 layout: default
 ---
 
-<div class="col-lg-10 mx-auto mt-5 markdown-body">
+{%- assign required = false -%}
+{%- for required_path in site.login_required -%}
+  {%- if required_path == page.title -%}
+    {%- assign required = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+<div id="{{ html_page.title }}" class="col-lg-10 mx-auto mt-5 markdown-body {% if required %}d-none{% endif %}">
   {{ content }}
 </div>
