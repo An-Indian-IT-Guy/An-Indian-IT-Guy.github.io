@@ -12,19 +12,21 @@ const label = document.getElementById('label');
 const page = document.getElementById(document.title)
 
 function welcomeUser(username) {
-    .skipJsErrors() // Ignore all JavaScript errors from this point
-    welcomeDiv.innerHTML = `Welcome ${username}!`
+    try {
+        welcomeDiv.innerHTML = `Welcome ${username}!`
 
-    label.classList.add('d-none');
-    signInButton.classList.add('d-none');
-    titleDiv.classList.add('d-none');
+        label.classList.add('d-none');
+        signInButton.classList.add('d-none');
+        titleDiv.classList.add('d-none');
 
-    signOutButton.classList.remove('d-none');
-    editProfileButton.classList.remove('d-none');
-    welcomeDiv.classList.remove('d-none');
-    callApiButton.classList.remove('d-none');
-    page.classList.remove('d-none')
-    .skipJsErrors(false) // Until this point
+        signOutButton.classList.remove('d-none');
+        editProfileButton.classList.remove('d-none');
+        welcomeDiv.classList.remove('d-none');
+        callApiButton.classList.remove('d-none');
+        page.classList.remove('d-none')
+    } catch (error) {
+        console.log('An error occurred:', error);
+    }
 }
 
 function logMessage(s) {
