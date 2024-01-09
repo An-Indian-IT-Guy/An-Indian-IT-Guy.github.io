@@ -9,6 +9,6 @@ layout: default
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-<div id="{{ html_page.title }}" class="col-lg-10 mx-auto mt-5 markdown-body {% if required %}d-none{% endif %}">
+<div id="{{ page.title }}" class="col-lg-10 mx-auto mt-5 markdown-body {% if required %}d-none{% endif %}">
   {{ content }}
 </div>
