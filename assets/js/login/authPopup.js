@@ -7,7 +7,7 @@ let username = "";
 
 function setAccount(account) {
     accountId = account.homeAccountId;
-    username = account.username;
+    username = account.idTokenClaims.given_name;
     welcomeUser(username);
 }
 

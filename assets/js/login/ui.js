@@ -12,20 +12,35 @@ const label = document.getElementById('label');
 const page = document.getElementById(document.title)
 
 function welcomeUser(username) {
-    try {
+    if(welcomeDiv){
         welcomeDiv.innerHTML = `Welcome ${username}!`
+    }
 
+    if(label){
         label.classList.add('d-none');
+    }
+    if(signInButton){
         signInButton.classList.add('d-none');
+    }
+    if(titleDiv){
         titleDiv.classList.add('d-none');
+    }
 
+
+    if(signOutButton){
         signOutButton.classList.remove('d-none');
+    }
+    if(editProfileButton){
         editProfileButton.classList.remove('d-none');
+    }
+    if(welcomeDiv){
         welcomeDiv.classList.remove('d-none');
+    }
+    if(callApiButton){
         callApiButton.classList.remove('d-none');
+    }
+    if(page){
         page.classList.remove('d-none')
-    } catch (error) {
-        console.log('An error occurred:', error);
     }
 }
 
