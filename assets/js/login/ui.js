@@ -12,6 +12,7 @@ const label = document.getElementById('label');
 const page = document.getElementById(document.title)
 
 function welcomeUser(username) {
+    .skipJsErrors() // Ignore all JavaScript errors from this point
     welcomeDiv.innerHTML = `Welcome ${username}!`
 
     label.classList.add('d-none');
@@ -23,7 +24,7 @@ function welcomeUser(username) {
     welcomeDiv.classList.remove('d-none');
     callApiButton.classList.remove('d-none');
     page.classList.remove('d-none')
-
+    .skipJsErrors(false) // Until this point
 }
 
 function logMessage(s) {
