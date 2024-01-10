@@ -2,7 +2,7 @@
 layout: page
 title: Myself
 permalink: /myself/
-weight: 1
+weight: 5
 ---
 
   <div class="row justify-content-left align-items-left p-4">

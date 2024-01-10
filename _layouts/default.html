@@ -5,12 +5,27 @@
 
 {% include head.html %}
 
+{%- assign required = false -%}
+{%- for required_path in site.login_required -%}
+  {%- if required_path == page.title -%}
+    {%- assign required = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 <body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5 ">
     {% include navbar.html %}
-    {{ content }}
+      {%- if required == true -%}
+        <div id="403_page">
+          {% include 403.html %}
+        </div>
+      {%- endif -%}
+    <div id="{{ page.title }}" class="{% if required %}d-none{% endif %}">
+      {{ content }}
+    </div>
   </main>
+
   {% include footer.html %}
 
   {% include analytics.html %}
