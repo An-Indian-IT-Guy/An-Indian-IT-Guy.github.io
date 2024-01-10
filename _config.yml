@@ -22,6 +22,7 @@ nav_exclude:                                            # The following paths ar
 
 login_required:
   - Myself
+  - Tools
 
 ### Author Info ###
 author:

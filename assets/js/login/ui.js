@@ -10,10 +10,11 @@ const callApiButton = document.getElementById('callApiButton');
 const response = document.getElementById("response");
 const label = document.getElementById('label');
 const page = document.getElementById(document.title)
+const page_403 = document.getElementById('403_page')
 
 function welcomeUser(username) {
     if(welcomeDiv){
-        welcomeDiv.innerHTML = `Welcome ${username}!`
+        welcomeDiv.innerHTML = `Hi there, ${username}!`
     }
 
     if(label){
@@ -24,6 +25,9 @@ function welcomeUser(username) {
     }
     if(titleDiv){
         titleDiv.classList.add('d-none');
+    }
+    if(page_403){
+        page_403.classList.add('d-none');
     }
 
 

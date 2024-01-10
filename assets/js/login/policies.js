@@ -5,15 +5,15 @@
  */
 const b2cPolicies = {
     names: {
-        signUpSignIn: "B2C_1_iig_test",
-        editProfile: "B2C_1_edit_profile_v2"
+        signUpSignIn: "B2C_1_iig_signin",
+        editProfile: "B2C_1_iig_edit"
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://indianitguy.b2clogin.com/indianitguy.onmicrosoft.com/B2C_1_iig_test",
+            authority: "https://indianitguy.b2clogin.com/indianitguy.onmicrosoft.com/B2C_1_iig_signin",
         },
         editProfile: {
-            authority: "https://indianitguy.b2clogin.com/indianitguy.onmicrosoft.com/B2C_1_iig_edit_test"
+            authority: "https://indianitguy.b2clogin.com/indianitguy.onmicrosoft.com/B2C_1_iig_edit"
         }
     },
     authorityDomain: "indianitguy.b2clogin.com"
