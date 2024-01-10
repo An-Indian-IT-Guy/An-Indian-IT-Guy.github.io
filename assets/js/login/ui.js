@@ -11,6 +11,7 @@ const response = document.getElementById("response");
 const label = document.getElementById('label');
 const page = document.getElementById(document.title)
 const page_403 = document.getElementById('403_page')
+const wlcm_blk = document.getElementById('welcome-blk')
 
 function welcomeUser(username) {
     if(welcomeDiv){
@@ -37,8 +38,8 @@ function welcomeUser(username) {
     if(editProfileButton){
         editProfileButton.classList.remove('d-none');
     }
-    if(welcomeDiv){
-        welcomeDiv.classList.remove('d-none');
+    if(wlcm_blk){
+        wlcm_blk.classList.remove('d-none');
     }
     if(callApiButton){
         callApiButton.classList.remove('d-none');
